@@ -1,0 +1,25 @@
+{
+  "parent": "srshelos_redstone_displays:block/directional_display",
+  "textures": {
+    "side": "srshelos_redstone_displays:block/led_display_4x4_side",
+    "back": "srshelos_redstone_displays:block/led_display_4x4_back",
+    "front": "srshelos_redstone_displays:block/led_display_4x4_front"
+  },
+  "elements": [
+    {
+      "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "down":  { "texture": "#side", "cullface": "down" },
+        "up":    { "texture": "#side", "cullface": "up" },
+        "west":  { "texture": "#side", "cullface": "west" },
+        "east":  { "texture": "#side", "cullface": "east" },
+        "south": { "texture": "#back", "cullface": "south" },
+        "north": {
+          "uv": [5.12,16, 2.56,0],
+          "texture": "#front",
+          "cullface": "north" }
+      }
+    }
+  ]
+}

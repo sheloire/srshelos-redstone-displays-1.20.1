@@ -3,7 +3,7 @@
 	"id": "srshelos_redstone_displays",
 	"version": "${version}",
 	"name": "Sr.Shelo's Redstone Displays",
-	"description": "Currently this mod just add a unique display block with 4 pixels activated by analog redstone input",
+	"description": "Currently this mod just add a unique stackable display block with 4 pixels activated by analog redstone input",
 	"authors": [
 		"Sr.Shelo"
 	],
